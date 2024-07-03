@@ -4,6 +4,7 @@ comptime {
     _ = @import("common.zig");
     _ = @import("compositor.zig");
     _ = @import("input.zig");
+    _ = @import("math.zig");
     _ = @import("openvr.zig");
     _ = @import("overlay.zig");
     _ = @import("render_models.zig");

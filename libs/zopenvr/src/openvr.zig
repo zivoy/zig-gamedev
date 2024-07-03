@@ -70,6 +70,8 @@ pub fn overlay(_: Self) common.InitError!Overlay {
 }
 
 pub usingnamespace @import("common.zig");
+pub const math = @import("math.zig");
+
 pub const System = @import("system.zig");
 pub const Chaperone = @import("chaperone.zig");
 pub const Compositor = @import("compositor.zig");
